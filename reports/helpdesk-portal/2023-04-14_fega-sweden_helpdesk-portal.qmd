@@ -1,0 +1,72 @@
+---
+title: "Feedback regarding 'Helpdesk Portal'"
+author: FEGA Sweden Helpdesk Team
+date: 2023-04-14
+date-format: "MMM D, YYYY"
+lang: en-GB
+editor: 
+  markdown: 
+    wrap: sentence
+format:
+  pdf:
+    documentclass: scrreprt
+    papersize: a4
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    colorlinks: true
+---
+
+
+# Bugs
+
+Any unexpected behaviour is considered by us to be a bug.
+
+## New
+
+### [11] “DATASET RELEASE” does not list released datasets in the Helpdesk Portal
+
+#### What I tried to do
+
+I went to the “DATASET RELEASE” section in order to check the release details of an approved submission.
+
+#### What I expected to happen
+
+As a member of the helpdesk, I expected to see the release details like the status of the release (e.g. “release pending” or “released”, possibly combined with a date). Without information, it is not possible to know what status the dataset has in the release process.
+
+#### What actually happened
+
+I observed that the section was totally empty.
+
+#### Steps to reproduce the result
+
+1. Log in to the Submitter Portal
+
+2. Add a new submission
+3. Upload a test file and enter required metadata.
+4. Click on "FINALISE SUBMISSION"
+5. As helpdesk member, log in to the Helpdesk Portal
+
+6. Approve the submission
+7. Check the release details of the submission under the section “DATASET RELEASE”
+
+#### Screenshots
+
+N/A
+
+#### Desktop (please complete the following information):
+
+ - OS: Windows
+ - Browser: Chrome
+ - Version: N/A
+
+#### Additional context
+
+N/A
+
+
+# Enhancements
+
+Anything that we think can be improved.
+
+No enhancement requests included in this report.
