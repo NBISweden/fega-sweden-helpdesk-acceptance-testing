@@ -1,0 +1,196 @@
+---
+title: "Feedback regarding 'Submitter Portal'"
+author: FEGA Sweden Helpdesk Team
+date: 2023-04-14
+date-format: "MMM D, YYYY"
+lang: en-GB
+editor: 
+  markdown: 
+    wrap: sentence
+format:
+  pdf:
+    documentclass: scrreprt
+    papersize: a4
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    colorlinks: true
+---
+
+# Some general comments regarding our testing
+
+This is a report from the last few weeks' testing of the Submitter Portal.
+We have recently introduced a ticketing system so that we can better keep track of the issues that we report to you.
+The numbers given inside square brackets next to the issue titles refer to issues in that ticketing system.
+
+From now on we will send separate reports for the Submitter and Helpdesk Portals.
+The reports will not only include new issues, but also previously reported issues that we still consider unresolved.
+If you want us to report issues in some other way, please let us know!
+
+The testing that we do is currently very time consuming.
+Here are a few things that you can do to make our testing more efficient:
+
+-   Version numbers of deployed software that is visible to us, e.g. on a web page (so that we know which versions we are testing)
+-   Notifications about service interruptions (planned and unplanned)
+-   Better feedback regarding issues that we report:
+    -   confirmation that the issue will be taken care of, or not taken care of
+    -   if possible, a time estimate of when the issue will be solved
+    -   if the issue takes longer time than expected to solve, some kind of periodic updates
+    -   notification when a new version that is supposed to fix the issue has been deployed (so that we know when to test it)
+
+# Bugs
+
+Any unexpected behaviour is considered by us to be a bug.
+
+## New
+
+### \[10\] Incorrect status for an approved submission in the Submitter Portal
+
+#### What I tried to do
+
+I checked the status of my submission which was approved by the FEGA Sweden Helpdesk.
+
+#### What I expected to happen
+
+I expected to see that my submission was approved.
+
+#### What actually happened
+
+I observed that my submission was still waiting for approval.
+
+#### Steps to reproduce the result
+
+1.  Add a new submission.
+2.  Approve the submission in the Helpdesk Portal.
+3.  Check the status of the submission in the Submitter Portal.
+
+#### Screenshots
+
+N/A
+
+#### Desktop (please complete the following information):
+
+-   OS: Windows
+-   Browser: Chrome
+-   Version: N/A
+
+#### Additional context
+
+N/A
+
+## Previously reported, but unresolved
+
+### \[12\] Not possible to download templates for batch upload of Samples and Runs in the Submitter Portal
+
+#### What I tried to do
+
+I clicked on the download icons in order to download the templates.
+
+#### What I expected to happen
+
+I expected to be able to download the templates.
+
+#### What actually happened
+
+I got an error message (404 page was not found).
+
+#### Steps to reproduce the result
+
+1.  Log in to the Submitter Portal
+2.  Click on the download icons for the templates under Samples and Runs.
+
+#### Screenshots
+
+N/A
+
+#### Desktop (please complete the following information):
+
+-   OS: Windows
+-   Browser: Chrome
+-   Version: N/A
+
+#### Additional context
+
+N/A
+
+### \[7\] "Extra attributes" not available in single record entry dialogs
+
+#### Describe the bug
+
+I wanted to add an extra attribute to my study (for example a DOI to software code associated with the study).
+I clicked on the "ADD STUDY" button and looked for a place to add extra attributes.
+No Extra Attributes field appeared when I did that.
+It didn't make any difference if the Extra Attributes column was visible in the table view or not.
+
+#### To Reproduce
+
+Steps to reproduce the behavior:
+
+1.  Click the Studies tab.
+2.  Click the "ADD STUDY" button.
+3.  Enter data in all fields.
+4.  Click Add.
+5.  Click the eye symbol to show the Extra Attributes field.
+6.  Click the Add Study button again.
+
+#### Expected behavior
+
+I expected to find some place where I could enter Extra Attributes.
+
+#### Screenshots
+
+N/A
+
+#### Desktop (please complete the following information):
+
+-   OS: N/A
+-   Browser: N/A
+-   Version: N/A
+
+#### Additional context
+
+Same steps goes for the Samples tab.
+
+### \[3\] Unable to see Samples table content inside the Analyses single record entry dialog
+
+#### Describe the bug
+
+Inside the single record entry dialog under the Analyses tab, I wanted to display additional columns in the Samples table.
+The table was populated with more columns but still fit within the same box.
+With narrower columns, the text was harder to read.
+No horizontal scrolling appeared.
+Adding and removing columns made no difference.
+It was not possible to resize the columns manually.
+I added more samples to see if this happened vertically as well as horizontally -- it did not.
+More samples caused vertical scrolling to appear.
+
+#### To Reproduce
+
+Steps to reproduce the behavior:
+
+1.  Go to the Submitter Portal and login.
+2.  Click on the Analyses tab.
+3.  Click "ADD ANALYSIS".
+4.  Inside the Samples tables, click on the eye symbol and select additional columns to display.
+
+#### Expected behavior
+
+I expected that new columns would be added and that the table would expand, and that each column would be sized horizontally according to the text inside, making it possible to scroll the table sideways and still see the text in each column.
+
+#### Screenshots
+
+If available, it will be added later on.
+
+#### Desktop (please complete the following information):
+
+N/A
+
+#### Additional context
+
+N/A
+
+# Enhancements
+
+Anything that we think can be improved.
+
+No enhancement requests included in this report.
