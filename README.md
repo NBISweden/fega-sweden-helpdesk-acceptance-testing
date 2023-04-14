@@ -8,7 +8,7 @@ We are currently testing the following products:
 
 * **File upload** -- software for uploading files the FEGA Sweden
 * **Submitter Portal** -- FEGA Sweden's instance of the FEGA Submitter Portal, which is currently hosted by central EGA.
-* **Helpdesk Portal** -- FEGA Sweden's instance of the FEGA Submitter Portal, which is currently hosted by central EGA.
+* **Helpdesk Portal** -- FEGA Sweden's instance of the FEGA Helpdesk Portal, which is currently hosted by central EGA.
 
 ## Generating reports
 
