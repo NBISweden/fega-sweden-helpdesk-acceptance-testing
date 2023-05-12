@@ -45,3 +45,8 @@ token={your access token}
 2. Open and edit the resulting markdown file in [RStudio](https://posit.co/products/open-source/rstudio/).
 
 3. From within RStudio, render a pdf of the report (you will need to have LaTeX installed on your computer in order to do this).
+
+
+## Generating FASTQ test files
+
+A Snakemake workflow for generating unique test files is available in a separate GitHub repo: https://github.com/NBISweden/fega-sweden-helpdesk-generate-files
