@@ -1,0 +1,63 @@
+---
+title: "Feedback regarding 'Submitter Portal'"
+author: FEGA Sweden Helpdesk Team
+date: 2023-05-30
+date-format: "MMM D, YYYY"
+lang: en-GB
+editor: 
+  markdown: 
+    wrap: sentence
+format:
+  pdf:
+    documentclass: scrreprt
+    papersize: a4
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    colorlinks: true
+---
+
+# Bugs
+
+Any unexpected behaviour is considered by us to be a bug.
+
+## Previously reported but unresolved
+
+### \[3\] Unable to see Samples table content inside the Analyses single record entry dialog
+
+#### Describe the bug
+
+Inside the single record entry dialog under the Analyses tab, I wanted to display additional columns in the Samples table.
+The table was populated with more columns but still fit within the same box.
+With narrower columns, the text was harder to read.
+No horizontal scrolling appeared.
+Adding and removing columns made no difference.
+It was not possible to resize the columns manually.
+I added more samples to see if this happened vertically as well as horizontally -- it did not.
+More samples caused vertical scrolling to appear.
+
+#### To Reproduce
+
+Steps to reproduce the behavior:
+
+1.  Go to the Submitter Portal and login.
+2.  Click on the Analyses tab.
+3.  Click "ADD ANALYSIS".
+4.  Inside the Samples tables, click on the eye symbol and select additional columns to display.
+
+#### Expected behavior
+
+When adding new columns, I expect the table to expand horizontally, so that I can see all the text in each column.
+Alternatively, I expect that it would be possible to change the width of each column manually.
+
+#### Screenshots
+
+![Screenshot 2023-04-24. When many columns are displayed at the same time, they become very narrow. Since the columns' widths cannot be adjusted, it is not possible to read the text inside the columns.](images/2023-04-24_submitter-portal.png)
+
+#### Desktop (please complete the following information):
+
+N/A
+
+#### Additional context
+
+N/A
