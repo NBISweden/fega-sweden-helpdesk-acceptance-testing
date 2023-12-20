@@ -1,0 +1,149 @@
+---
+title: "Feedback regarding 'Submitter Portal'"
+author: FEGA Sweden Helpdesk Team
+date: 2023-12-19
+date-format: "MMM D, YYYY"
+lang: en-GB
+editor: 
+  markdown: 
+    wrap: sentence
+format:
+  pdf:
+    documentclass: scrreprt
+    papersize: a4
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    colorlinks: true
+---
+
+# Bugs
+
+Any unexpected behaviour is considered by us to be a bug.
+
+## New
+
+### \[28\] Not possible to edit a submission as a collaborator with full rights
+
+#### What I tried to do
+
+We tried to edit metadata objects (Study, Experiment, Analysis) as a collaborator with full rights for a submission in the Submitter Portal (production).
+
+#### What I expected to happen
+
+We expected to see the editing icon to the left when hovering over the row of the metadata object.
+
+#### What actually happened
+
+No editing icon appeared and we could not edit the metadata object.
+
+#### Steps to reproduce the result
+
+Steps to reproduce the behavior: 1.
+Invite a collaborator to an ongoing submission and give the collaborator full rights.
+2.
+Ask the collaborator to sign in to the Submitter Portal and edit a metadata object in the submission.
+
+#### Screenshots
+
+No screenshot are available.
+
+#### Desktop (please complete the following information):
+
+-   OS: Windows and Mac
+-   Browser: Google Chrome and Safari
+
+#### Additional context
+
+Three different collaborators experienced the same issue.
+No one could edit the submission.
+
+### \[25\] Add the same file multiple times to Analysis object
+
+#### What I tried to do
+
+I tried to add files to an Analysis object, in an ongoing submission yet to be finalized, by clicking in the "Files" field and selecting the file of interest in the drop-down menu that appears.
+
+#### What I expected to happen
+
+I expected the already selected file to disappear in the drop-down menu the second time I clicked in the "Files" field.
+
+#### What actually happened
+
+The already selected file was still in the drop-down menu and could be selected again and again.
+This resulted in various copies of the same file.
+
+#### Steps to reproduce the result
+
+Steps to reproduce the behavior: 1.
+Go to the Swedish '[Submitter Portal](https://submission.sweden.ega-archive.org/)' and sign in.
+2.
+Click on your submission and go to the Analysis object 3.
+Add a new Analysis.
+4.
+Click in the "Files" field and select a file from the drop-down menu.
+5.
+Click again in the "Files" field and select a file from the drop-down menu.
+
+#### Screenshots
+
+![2023-12-10_submitter-portal-sweden_bug_analysis-object_drop-down-menu](img_2023-12-19/c0b894cf-6049-4582-a488-952a37d1a1b4.png)
+
+![2023-12-10_submitter-portal-sweden_bug_analysis-object_copies-of-file](img_2023-12-19/3f7c1eda-c1ec-4d19-a099-1f7b04fccf7d.png)
+
+#### Desktop (please complete the following information):
+
+-   OS: Windows 10 Education
+-   Browser: Google Chrome
+-   Version: 120.0.6099.71
+
+#### Additional context
+
+Incognito mode in Google Chrome was used during the session.
+
+## Previously reported but unresolved
+
+### \[3\] Unable to see Samples table content inside the Analyses single record entry dialog
+
+#### Describe the bug
+
+Inside the single record entry dialog under the Analyses tab, I wanted to display additional columns in the Samples table.
+The table was populated with more columns but still fit within the same box.
+With narrower columns, the text was harder to read.
+No horizontal scrolling appeared.
+Adding and removing columns made no difference.
+It was not possible to resize the columns manually.
+I added more samples to see if this happened vertically as well as horizontally -- it did not.
+More samples caused vertical scrolling to appear.
+
+#### To Reproduce
+
+Steps to reproduce the behavior:
+
+1.  Go to the Submitter Portal and login.
+2.  Click on the Analyses tab.
+3.  Click "ADD ANALYSIS".
+4.  Inside the Samples tables, click on the eye symbol and select additional columns to display.
+
+#### Expected behavior
+
+When adding new columns, I expect the table to expand horizontally, so that I can see all the text in each column.
+Alternatively, I expect that it would be possible to change the width of each column manually.
+
+#### Screenshots
+
+![Skärmavbild 2023-04-24 kl 12 14 50](img_2023-12-19/233968378-c1d40c7c-2def-46b1-947e-94aad83c28cf.png)
+
+#### Desktop (please complete the following information):
+
+N/A
+
+#### Additional context
+
+N/A
+
+# Enhancements
+
+Anything that we think can be improved.
+
+No enhancement requests included in this report.
