@@ -1,0 +1,66 @@
+---
+title: "Feedback regarding 'DAC Portal'"
+author: FEGA Sweden Helpdesk Team
+date: 2023-12-19
+date-format: "MMM D, YYYY"
+lang: en-GB
+editor: 
+  markdown: 
+    wrap: sentence
+format:
+  pdf:
+    documentclass: scrreprt
+    papersize: a4
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    colorlinks: true
+---
+
+# Bugs
+
+Any unexpected behaviour is considered by us to be a bug.
+
+## New
+
+### \[24\] Creating Policy in DAC Portal - error when saving a minimal draft due to empty values in non-mandatory fields
+
+#### What I tried to do
+
+I tried to create a minimal draft of a Policy in the DAC Portal.
+I filled in all mandatory fields and clicked on "CREATE".
+
+#### What I expected to happen
+
+I expected to get some kind of confirmation of the newly created Policy.
+
+#### What actually happened
+
+I was informed "A content or a URL is required", even though these metadata fields are not highlighted as mandatory with a red "wildcard" character.
+
+#### Steps to reproduce the result
+
+1.  Go to the '[DAC Portal](https://dac.ega-archive.org/)' and sign in with your EGA account.
+2.  Go to 'My Policies' and click on 'Create a Policy' or click directly on 'Create a Policy' from the roll-down menu from the top right corner.
+3.  Fill in all mandatory fields highlighted with a red "wildcard" character.
+4.  Click on 'CREATE'
+
+#### Screenshots
+
+![2023-12-04_DAC-Portal_Bug_Creating-new-Policy-error](img_2023-12-19/e91e1941-cdd7-4589-bbfa-c67f09e93555.png)
+
+#### Desktop (please complete the following information):
+
+-   OS: Windows 10 Education
+-   Browser: Google Chrome
+-   Version: 119.0.6045.161
+
+#### Additional context
+
+Incognito mode in Google Chrome was used during the session.
+
+# Enhancements
+
+Anything that we think can be improved.
+
+No enhancement requests included in this report.
