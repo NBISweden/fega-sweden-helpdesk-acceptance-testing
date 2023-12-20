@@ -29,7 +29,7 @@ If applicable, add screenshots to help explain your problem.
 **Desktop (please complete the following information):**
  - OS: [e.g. iOS]
  - Browser (incl. version): [e.g. chrome, safari]
- - Version: [version of the software you are testing, e.g. 22]
+ - Version: [version of the software you are testing (if known), e.g. 22]
 
 **Additional context**
 Add any other context about the problem here.
