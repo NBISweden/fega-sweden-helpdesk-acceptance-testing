@@ -71,6 +71,7 @@ frame = pd.DataFrame.from_records(ser_gen)
 
 # Sort issue by type, product and status
 frame.sort_values(by=["product", "issue_type", "status"], inplace=True)
+frame["body"] = frame.body.replace(r"^(\S)", r"\n\1", regex=True)
 frame["body"] = frame.body.str.rstrip("\n")
 frame["body"] = frame.body.replace(r"\n\*\*(.+)\*\*\n+", r"\n#### \1\n\n", regex=True)
 
